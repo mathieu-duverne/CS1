@@ -9,6 +9,8 @@ Project of my first year in coding school
   
   - Reservation salles / Booking room : (PHP, CSS) booking module / register & login module
   
+  - Runtrack : (JS, PHP, CSS) mini job in javascript 
+  
   - Social network : (JS, PHP, CSS) chat / MVC / register & login module
   
   - Taquin : (JS, CSS) Games / Recursiv

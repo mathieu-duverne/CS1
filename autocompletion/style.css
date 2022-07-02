@@ -1,0 +1,14 @@
+ul{
+    float: left;
+    list-style: none;
+    padding: 0px;
+    border: 1px solid black;
+    margin-top: 0px;
+    cursor:pointer;
+}
+input, ul{
+    width: 250px;
+}
+.resultatsearch{
+    cursor: pointer;
+}

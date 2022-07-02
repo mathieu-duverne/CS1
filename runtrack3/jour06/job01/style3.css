@@ -1,0 +1,7 @@
+@media (min-width: 1280px) and (max-width: 1680px) {
+    body{
+        margin: 0;
+        padding:0;
+        background-color: #275fa0;
+    }
+}

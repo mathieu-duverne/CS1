@@ -1,0 +1,36 @@
+# ----- CONFIG ----- #
+
+# ----- Activate rewrite url ----- #
+RewriteEngine On
+
+# ----- Rules rewrite url ----- #
+
+# --- Page default --- #
+RewriteRule ^home$ index.php?page=home [L]
+
+# --- Page login --- #
+RewriteRule ^login$ index.php?page=login [L]
+
+# --- Page sign-in --- #
+RewriteRule ^signin$ index.php?page=signin [L]
+
+# --- Page logout --- #
+RewriteRule ^logout$ index.php?page=logout [L]
+
+# --- Page profil --- #
+RewriteRule ^profil$ index.php?page=profil [L]
+
+# --- Page Dashboard --- #
+RewriteRule ^dashboard$ index.php?page=dashboard [L]
+
+# --- Page Dashboard --- #
+RewriteRule ^dashboarduser$ index.php?page=dashboarduser [L]
+
+# --- Page Post --- #
+RewriteRule ^post$ index.php?page=post [QSA]
+
+# --- Page Dashboard --- #
+RewriteRule ^dashboardpost$ index.php?page=dashboardpost [L]
+
+# --- Page Chat --- #
+RewriteRule ^chat$ index.php?page=chat [QSA]

@@ -1,0 +1,369 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Truculenta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+body, main {
+  margin:0;
+  padding:0;
+  overflow-x: hidden;
+}
+
+* {
+  width:100%;
+  height: auto;
+}
+
+header {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  background-color:black;
+  align-items:center;
+  height: 85px;
+}
+
+a.logo {
+  width:200px;
+  height: auto;
+  margin-right:0px;
+}
+
+figure.img {
+  width: 200px;
+  height: 70px;
+  margin:0px;
+}
+
+img.logo-header {
+  width: 200px;
+  height: 70px;
+  display:inline-flex;
+  margin-top:5px;
+  margin-left:5px;
+  margin-right:10px;
+}
+
+form.search {
+  margin-left:0px;
+  align-self:center;
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+}
+
+input.search {
+  width: 320px;
+  height: 50px;
+  font-size:32px;
+  border-radius: 50px;
+  padding-left:20px;
+  margin-right:10px;
+  font-family: 'Truculenta', sans-serif;
+}
+
+input.go {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color:#CD5C5C;
+}
+
+ul {
+  margin:0px;
+  align-self:center;
+  padding:0px;
+  list-style:none;
+  font-size:32px;
+  margin-right:10px;
+}
+
+ul li {
+  float:left;
+  display:inline-block;
+  height: 50px;
+  width: 180px;
+  line-height:normal;
+  text-align:center;
+  align-self:center;
+  background-color: black;
+}
+
+ul li.test {
+  margin-left:10px;
+}
+
+ul li a {
+  align-self:center;
+  text-decoration:none;
+  text-align:center;
+  text-align:center;
+  color:white;
+  border-radius:20px;
+  font-family: 'Truculenta', sans-serif;
+}
+
+ul li ul li a {
+  text-decoration:none;
+  text-align:center;
+  background-color:#959595;
+  display:inline-block;
+  width:160px;
+  height: 45px;
+  font-family: 'Truculenta', sans-serif;
+
+}
+
+ul li:hover ul li {
+  display:block;
+}
+
+ul li ul li {
+  display:none;
+}
+
+section.h1-1 {
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-start;
+  width: 800px;
+  align-items:baseline;
+}
+
+section.h1-1 a.link {
+  height: 40px;
+  width: 130px;
+  line-height: 40px;
+  font-size:20px;
+  font-family: 'Truculenta', sans-serif;
+
+}
+
+section.h1-1 a:hover, ul li a:hover {
+  color:grey;
+}
+
+i {
+  margin:0px;
+  line-height:10px;
+  margin-left:0px;
+}
+
+i:hover {
+  color:black;
+}
+
+a.link {
+  margin:0px;
+}
+
+
+
+a.icon {
+  text-align:center;
+  text-decoration:none;
+  color:white;
+  width:30px;
+  margin:10px;
+}
+
+a.link {
+  text-align:center;
+  text-decoration:none;
+  color:white;
+  margin-left:0px;
+}
+
+.p1-1 {
+  height: 100%;
+  width: 100%;
+}
+
+section.p1-1 {
+  width: 100%;
+  height: 670px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image:url("../images/wallpaper1.jpg");
+}
+
+section.p1-1 h1 {
+  text-align:center;
+  width:300px;
+  margin-top:100px;
+  font-family: 'Playball', cursive;
+  font-size:50px;
+}
+
+section.p1-2 {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top:50px;
+}
+
+section.p1-2 h2 {
+  text-align:center;
+  margin-top:50px;
+  font-family: 'Playball', cursive;
+  font-size:40px;
+}
+
+section.p1-3 {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section.p1-3 a {
+  background-color:#FFB36D;
+  padding:15px;
+  border-radius: 30px;
+  text-align:center;
+  height: 80px;
+  width: 200px;
+  border: 1px solid grey;
+  color:white;
+  font-family: 'Truculenta', sans-serif;
+}
+
+a.link2 {
+  align-self: center;
+  font-size:30px;
+  text-decoration:none;
+}
+
+a.link2:hover {
+  color:grey;
+}
+
+i.bi-arrow-down {
+  text-align:center;
+  margin-top:100px;
+  font-size:40px;
+}
+
+section.p2-1 {
+  background-color:black;
+  height: 40px;
+  box-shadow: 0px 0px 12px 6px black;
+}
+
+section.p2-2 {
+  background-image:url("../images/wallpaper2.jpg");
+  height:740px;
+  width: auto;
+  display:flex;
+  flex-direction: column;
+  justify-content:space-around;
+
+}
+
+section.p2-2 h3 {
+  text-align:center;
+  padding-top:0px;
+  font-family: 'Playball', cursive;
+  font-size:40px;
+}
+
+a.link3 {
+  background-color:#FFB36D;
+  font-size:30px;
+  padding:15px;
+  border-radius:30px;
+  text-align:center;
+  height:80px;
+  width:200px;
+  border: 1px solid grey;
+
+  color:white;
+  font-family:'Truculenta', sans-serif;
+  text-decoration:none;
+  align-self: center;
+}
+
+a.link3:hover {
+  color:grey;
+}
+
+section.p3-1 {
+  height:740px;
+  background-image:url("../images/wallpaper3.jpg");
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section.white {
+  width:1280px;
+  height:620px;
+  background-color:rgba(255,255,255,0.9);
+  box-shadow: 0px 0px 20px 5px black;
+  border-radius: 10px;
+}
+
+footer {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color:black;
+  height:300px;
+  box-shadow: 0px 0px 12px 6px black;
+}
+
+a.link4 {
+  text-decoration:none;
+  color:white;
+  font-size:26px;
+  font-family:'Truculenta', sans-serif;
+  align-self: center;
+}
+
+a.link4:hover {
+  color:grey;
+  width: auto;
+}
+
+h4 {
+  text-align:center;
+  margin-top:40px;
+  font-family: 'Playball', cursive;
+  font-size:40px;
+}
+
+p.p1 {
+  width:800px;
+  height:300px;
+  margin-left:100px;
+  font-size:22px;
+  font-family: 'Truculenta', sans-serif;
+  margin-top:40px;
+}
+
+p.p2 {
+  font-size:22px;
+  font-family: 'Truculenta', sans-serif;
+  margin-left:100px;
+  margin-top:0px;
+}
+
+section.p4-1 {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left:60px;
+}
+
+section.p4-2 {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+img.foot {
+  width: 480px;
+  height: 200px;
+  margin-left:200px;
+}

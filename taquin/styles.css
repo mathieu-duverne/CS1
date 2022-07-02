@@ -1,0 +1,78 @@
+/* BASE CSS */
+body{
+    display:flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* layout board games */
+#shuffle{
+    align-items: center;
+    justify-content: center;
+    height:650px; 
+    width:650px; 
+    display:grid; 
+    grid-template-columns:repeat(3,200px); 
+    grid-template-rows: repeat(3,200px);
+    justify-content:center; 
+    border: none;
+    grid-gap:5px;
+}
+/* style image board games */
+img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: 2%;
+    padding: 2%;
+}
+
+
+/* DESIGN DU LIEN ET BUTTON SHUFFLE */
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border:none;
+    cursor: pointer;
+    background-color: rgb(212, 212, 212);
+}
+#button{
+    font-weight: 100;
+    padding: .5rem;
+    margin:2%;
+    font-size: 20px;
+    border-radius: 0.5rem;
+    border:none;
+    cursor: pointer;
+}
+
+/* MEDIA QUERIES RESPONSIVE SIMPLE CENTRER */
+@media screen and (max-width: 700px){
+    #shuffle{
+        align-items: center;
+        justify-content: center;
+        place-items:center; 
+        height:380px; 
+        width:380px; 
+        display:grid; 
+        grid-template-columns:repeat(3,120px); 
+        grid-template-rows: repeat(3,120px);
+        justify-content:center; 
+        grid-gap:5px;
+        border: none;
+    }
+    img{
+        background: none;
+        border: none;
+        width: 120px;
+        height: 120px;
+        margin: 1%;
+        padding: 1%;
+    }
+    
+}

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>MEMORY</title>
+</head>
+<body>
+    <div class="container">
+            <h1>Jeux de memory</h1>
+       <div id="option">
+        <div class="radio">
+            <div>
+                <input type="radio" value="1" name="s">
+                <label>Facile</label>
+            </div>
+            <div>
+                <input type="radio" value="2" name="s" checked>
+                <label>Moyen</label>
+            </div>
+            <div>
+                <input type="radio" name="s" value="3">
+                <label>Difficile</label>
+            </div>
+       </div>
+
+        <div id="error"></div>
+        <div class="containers">
+           <div class="row">
+        <button id="start" type="submit">START</button>
+           <h2>You</h2>
+           </div>
+           <div class="row">
+               <button id="startAlgo" type="submit">START</button>
+               <h2>AI</h2>
+           </div>
+        </div>
+       </div>
+    <h4>Chronomètre</h4>
+        <p>le chrono s'arrete quand tu as finis !</p>
+        <form name="chronoForm">
+        <span id="chronotime">0:00:00:00</span><br>
+        <input type="button" name="stop" value="RESTART" onClick="chronoStop()" />
+        </form>
+    </div>
+    <div id="board">
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
